@@ -1,0 +1,18 @@
+/*
+Judge: %s
+PROG: %s
+*/
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+	#ifndef ONLINE_JUDGE
+	freopen("%s_%s_%s.in","r",stdin);
+	freopen("%s_%s_%s.out","w",stdout);
+	#endif
+	
+	return 0;
+}
